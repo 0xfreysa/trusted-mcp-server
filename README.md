@@ -10,7 +10,7 @@ To use this MCP server, you will need an [app-specific password](https://myaccou
 Then simply add the following block to your client's `mcp.json` file.
 ```json
     "gmail_mcp": {
-      "url": "https://gmail.mcp.freysa.ai/sse/sse/?ADDR=<your.email@gmail.com>&ASP=<your app-specific password>"
+      "url": "https://gmail.mcp.freysa.ai/sse/?ADDR=<your.email@gmail.com>&ASP=<your app-specific password>"
     }
 ```
 
