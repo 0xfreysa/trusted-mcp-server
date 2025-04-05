@@ -1,0 +1,16 @@
+{
+    "name": "remote-attestation-verifier-wasm",
+    "type": "module",
+    "version": "0.1.0-alpha.6",
+    "files": [
+      "remote-attestation-verifier_bg.wasm",
+      "remote-attestation-verifier_bg.wasm.d.ts",
+      "remote-attestation-verifier.js",
+      "remote-attestation-verifier.d.ts"
+    ],
+    "main": "remote-attestation-verifier.js",
+    "types": "remote-attestation-verifier.d.ts",
+    "sideEffects": [
+      "./snippets/*"
+    ]
+  }
